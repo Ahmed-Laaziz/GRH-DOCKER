@@ -19,7 +19,6 @@ const profSchema = new Schema({
         cadre: {
             type: String,
             required: false,
-            default: "fonctionnaire"
         },
         num_ref: {
             type: Number,
